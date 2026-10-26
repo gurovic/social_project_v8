@@ -1,0 +1,147 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta charset="utf-8">
+<title>Древо языков</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
+
+<style type="text/css">
+        * {
+            font-family: "Dosis", sans-serif;
+	        font-weight: normal;
+        }
+        body{
+            background-color: #002c49;
+        }
+	    .cont{
+            margin-top: 0;
+	        background: #ebe3d8;
+	        border: 1px solid #ebe3d8;
+            text-align: center;
+	    }
+	    h3 { /* стили текста*/
+            font-family: "Dosis", sans-serif;
+            font-optical-sizing: auto;
+            font-style: normal;
+	        font-size: 99px;
+	        color: #002c49;
+	        margin-bottom: 3%;
+            margin-top: 3%;
+            text-align: center;
+	    }
+        h2 {
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 27px;
+	        color: #002c49;
+	        margin-top:1%;
+	        margin-bottom: 1%;
+		margin-left: 3%;
+		margin-right: 4%;
+		
+            }
+        h1 {
+	        font-family: "Dosis", sans-serif;
+            font-optical-sizing: auto;
+            font-style: normal;
+            font-size: 30px;
+            text-align: center;
+	        margin-top: 15px; 
+            color: #fff;
+        }
+	    p{ 
+	      font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+	    font-size: 30px;
+            text-align: center;
+	        margin-top: 3%;
+            color: #ebe3d8;
+	    line-height: 100%;
+        } 
+        .footer {
+            height: 100px;
+            width: 100%;
+            background: darkgrey;
+            position: absolute;
+            bottom: 0;
+        }
+        /*.ltr{
+        }*/
+        .header { /*применяется к заголовку сайта, устанавливает отступы и цвет заднего фона*/
+        padding: 10px;
+        background-color: #002c49;
+        }
+        .menu{ /*применяется к меню сайта*/
+        display: flex; 
+        justify-content: space-between;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        }
+        .page{ /*настройки кнопок меню: цвет, размер, padding (внутренние отступы)*/
+        border-radius: 10px;
+        box-sizing: border-box;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 32px;
+        padding-right: 32px;
+        display: flex; 
+        flex-direction: column;
+        width: 33%;
+        cursor:pointer /*изменение курсора на руку*/
+        }
+        ::selection { /*цвет выделения текста*/
+        background-color: #8faaaaff
+        }
+        .btn {
+	    display: inline-block; /* Строчно-блочный элемент */
+	    background: #002c49; 
+	    color: #fff; /* Белый цвет текста */
+	    padding: 20px 1px; /* Поля вокруг текста */
+	    text-decoration: none; /* Убираем подчёркивание */
+	    width: 30%;
+	    height: 100%;
+	    border-top-right-radius: 10px;
+	    border-bottom-left-radius: 10px;
+	    border-top-left-radius: 10px;
+	    border-bottom-right-radius: 10px; 
+	    }
+	    .something{
+	        background-color: #002c49;
+	        height: 20%;
+	        width: 100%;
+	    }
+</style>
+
+</head>
+<body>
+    <div class = "header">
+        <div class="menu">  <!--создание меню с тремя "вкладками"-->
+            <div class="page" onclick="location.href='main_page.html';">
+                <h1>Main</h1>
+            </div>
+            <div class="page" onclick="location.href='about_project.html';">
+                <h1>About project</h1>
+            </div>
+            <div class="page" onclick="location.href='about_us.html';">
+                <h1>About us</h1>
+            </div>
+        </div>
+    </div>
+    <div class = "cont">
+        <h3>About project</h3>
+        <h2>This project was prepared by students of the eighth grade of the "Letovo" school. Our team decided to make a website with an interactive tree of languages so that anyone could learn more about any Indo-European and Finno-Ugric language. On our site you will be able to see the basic information about the language (number of speakers, autonym of the language, region of distribution and much more).</h2>
+	    <h2>Also you can read a fairy tale in this language and listen to its audio recordings made by the native speaker. In this way, we are contributing to the preservation and dissemination of the cultural heritage of endangered languages. It is planned to make the site in Russian and English. So far only the English version of the site is ready. </h2>
+        <h2>In addition, our team is now developing a special dictionary with a basic set of words to put it on the page of each language. This dictionary will help the user to get acquainted with the specifics of the language, as well as try to communicate in the chosen language. On the main page of this site there is an image of a tree of languages and a list of languages in alphabetical order. To visit one of the language pages click on the name of this landing on the main page.</h2>
+        <h2>In some languages we have not found any native speakers yet, so if you are a native speaker of any of the languages on the site or you know someone who can speak one of this languages, we invite you to cooperate and ask you to fill in this form.</h2>
+        <p><a href="https://forms.yandex.ru/u/664b84fcc417f3cae4c92676/" class="btn">Form</a></p>
+    </div>
+  <div class = "something">
+  <h1>If you have any questions, write us:</h1>
+  <h1>l.languagetree@gmail.com</h1>
+  </div>
+</body>
+</html>

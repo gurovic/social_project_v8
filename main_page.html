@@ -1,0 +1,376 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta charset="utf-8">
+<title>Древо языков</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
+<style type="text/css">
+        * {
+            font-family: "Dosis", sans-serif;
+	        font-weight: normal;
+        }
+        body {
+            background-color: #002c49;
+        }
+	    .cont{
+	        background: #ebe3d8;
+	    }
+	    .header{
+	        background: #002c49;
+	    }
+	    h3 {
+	        display: flex; /* стили текста*/
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+	        font-size: 99px;
+	        color: #002c49;
+	        margin-bottom: 0;
+	        margin-top: 10%;
+		margin-left: 3%
+	    }
+        h2 {
+            display: flex;
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+	        font-size: 25px;
+	        color: #002c49;
+	        margin-top:1%;
+	        margin-bottom: 0;
+            }
+        h1 {
+	        font-family: "Dosis", sans-serif;
+            font-optical-sizing: auto;
+            font-style: normal;
+            font-size: 30px;
+            text-align: center;
+	        margin-top: 15px; 
+            color: #fff;
+        }
+	    p{ 
+	      font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+            font-size: 20px; 
+            line-height: 26px; 
+            color: #ebe3d8; 
+            font-size: 20px; 
+            letter-spacing: 0.05em; 
+            color: #ebe3d8; 
+            opacity: 0.6; 
+        } 
+        .footer {
+            height: 100px;
+            width: 100%;
+            background: darkgrey;
+            position: absolute;
+            bottom: 0;
+        }
+	    .letters{
+	        max-width: 1040px;
+            width: 100%;
+            height: 50px;
+            margin-top: auto;
+            margin-left: 14%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            background: #ebe3d8;
+            margin-bottom: auto;
+	    }
+        .language_btn {
+            display: inline-block; /* Строчно-блочный элемент */
+            background: #ebe3d8; 
+            color: #002c49; 
+            padding: 5px 15px; /* Поля вокруг текста */
+            text-decoration: none; /* Убираем подчёркивание */
+        }
+        /*.ltr{
+        }*/
+        .table_lang {
+            border-collapse: collapse;
+            width: 90%;
+            margin-left: 8%;
+            margin-bottom: 8%;
+        }
+        .table_lang td{
+            border:1px solid #ebe3d8;
+            vertical-align: top;
+            text-align: left;
+        }
+        .table_lang th{
+            border:1px solid #ebe3d8;
+            width: 25%;
+            vertical-align: top;
+        }
+        .header { /*применяется к заголовку сайта, устанавливает отступы и цвет заднего фона*/
+        padding: 10px;
+        background-color: #002c49;
+        }
+        .menu{ /*применяется к меню сайта*/
+        display: flex; 
+        justify-content: space-between;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        }
+        .page{ /*настройки кнопок меню: цвет, размер, padding (внутренние отступы)*/
+        border-radius: 10px;
+        box-sizing: border-box;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 32px;
+        padding-right: 32px;
+        display: flex; 
+        flex-direction: column;
+        width: 33%;
+        cursor:pointer /*изменение курсора на руку*/
+        }
+        ::selection { /*цвет выделения текста*/
+        background-color: #8faaaaff
+        }
+	    .something{
+	        background-color: #002c49;
+	        height: 20%;
+	        width: 100%;
+	    }
+</style>
+
+</head>
+<body>
+    <div class = "header">
+        <div class="menu">  <!--создание меню с тремя "вкладками"-->
+            <div class="page" onclick="location.href='main_page.html';">
+                <h1>Main</h1>
+            </div>
+            <div class="page" onclick="location.href='about_project.html';">
+                <h1>About project</h1>
+            </div>
+            <div class="page" onclick="location.href='about_us.html';">
+                <h1>About us</h1>
+            </div>
+        </div>
+    </div>
+<div class="cont"><!--вставка изображения дерева-->
+    <img src="tree.png" width="100%" 
+  height="100%">
+  
+  <table class = "table_lang">
+  <tr>
+         <th><h3>A</h3>
+<h2><a href="Afrikaans.html" class="language_btn">Afrikaans</a><h2>
+<h2><a href="Albanian.html" class="language_btn">Albanian</a><h2>
+<h2><a href="Armenian.html" class="language_btn">Armenian</a><h2>
+<h2><a href="Assamese.html" class="language_btn">Assamese</a><h2>
+<h2><a href="Awadhi.html" class="language_btn">Awadhi</a><h2></th>
+        <th><h3>B</h3>
+<h2><a href="Bagheli.html" class="language_btn">Bagheli</a><h2>
+<h2><a href="Baluchi.html" class="language_btn">Baluchi</a><h2>
+<h2><a href="Bavarian.html" class="language_btn">Bavarian</a><h2>
+<h2><a href="Belarusian.html" class="language_btn">Belarusian</a><h2>
+<h2><a href="Bengali.html" class="language_btn">Bengali</a><h2>
+<h2><a href="Bhilali.html" class="language_btn">Bhilali</a><h2>
+<h2><a href="Bhili.html" class="language_btn">Bhili</a><h2>
+<h2><a href="Bhojpuri.html" class="language_btn">Bhojpuri</a><h2>
+<h2><a href="Bosnian.html" class="language_btn">Bosnian</a><h2>
+<h2><a href="Breton.html" class="language_btn">Breton</a><h2>
+<h2><a href="Bulgarian.html" class="language_btn">Bulgarian</a><h2></th>
+	<th><h3>C</h3>
+<h2><a href="Catalan.html" class="language_btn">Catalan</a><h2>
+<h2><a href="Chhattisgarhi.html" class="language_btn">Chhattisgarhi</a><h2>
+<h2><a href="Chittagonian.html" class="language_btn">Chittagonian</a><h2>
+<h2><a href="Cornish.html" class="language_btn">Cornish</a><h2>
+<h2><a href="Corsican.html" class="language_btn">Corsican</a><h2>
+<h2><a href="Croatian.html" class="language_btn">Croatian</a><h2>
+<h2><a href="Czech.html" class="language_btn">Czech</a><h2></th>
+<th><h3>D</h3>
+<h2><a href="Danish.html" class="language_btn">Danish</a><h2>
+<h2><a href="Decan.html" class="language_btn">Decan</a><h2>
+<h2><a href="Dimli.html" class="language_btn">Dimli</a><h2>
+<h2><a href="Dogri.html" class="language_btn">Dogri</a><h2>
+<h2><a href="Dutch.html" class="language_btn">Dutch</a><h2></th>
+    </tr>
+    
+    <tr>
+    <th>
+    <h3>E</h3>
+<h2><a href="Emillano.html" class="language_btn">Emillano</a><h2>
+<h2><a href="English.html" class="language_btn">English</a><h2>
+<h2><a href="Erzya.html" class="language_btn">Erzya</a><h2>
+<h2><a href="Estonian.html" class="language_btn">Estonian</a><h2>
+    </th>
+        <th>
+	<h3>F</h3>
+<h2><a href="Faroese.html" class="language_btn">Faroese</a><h2>
+<h2><a href="Fijian hindi.html" class="language_btn">Fijian hindi</a><h2>
+<h2><a href="Finnish.html" class="language_btn">Finnish </a><h2>
+<h2><a href="Flemish.html" class="language_btn">Flemish </a><h2>
+<h2><a href="French.html" class="language_btn">French</a><h2>
+<h2><a href="Frisian.html" class="language_btn">Frisian</a><h2>
+    </th>
+        <th>
+	<h3>G</h3>
+<h2><a href="Gaelic.html" class="language_btn">Gaelic</a><h2>
+<h2><a href="Galician.html" class="language_btn">Galician</a><h2>
+<h2><a href="Garhwali.html" class="language_btn">Garhwali</a><h2>
+<h2><a href="German.html" class="language_btn">German</a><h2>
+<h2><a href="Gilaki.html" class="language_btn">Gilaki</a><h2>
+<h2><a href="Goan, Konkoni.html" class="language_btn">Goan, Konkoni</a><h2>
+<h2><a href="Greek.html" class="language_btn">Greek</a><h2>
+<h2><a href="Gujarati.html" class="language_btn">Gujarati</a><h2>
+    </th>
+        <th>
+	<h3>H</h3>
+<h2><a href="Hazaragi.html" class="language_btn">Hazaragi</a><h2>
+<h2><a href="Hindi.html" class="language_btn">Hindi</a><h2>
+<h2><a href="Hindko.html" class="language_btn">Hindko</a><h2>
+<h2><a href="Hungarian.html" class="language_btn">Hungarian</a><h2>
+<h2><a href="Hunsrik.html" class="language_btn">Hunsrik</a><h2>
+    </th>
+    </tr>
+    
+    <tr>
+    <th>
+    <h3>I</h3>
+<h2><a href="Icelandic.html" class="language_btn">Icelandic</a><h2>
+<h2><a href="Italian.html" class="language_btn">Italian</a><h2>
+    </th>
+        <th>
+	<h3>K</h3>
+<h2><a href="Kangri.html" class="language_btn">Kangri</a><h2>
+<h2><a href="Kashmiri.html" class="language_btn">Kashmiri</a><h2>
+<h2><a href="Khanty.html" class="language_btn">Khanty </a><h2>
+<h2><a href="Komi.html" class="language_btn">Komi </a><h2>
+<h2><a href="Kumaoni.html" class="language_btn">Kumaoni</a><h2>
+<h2><a href="Kurdish.html" class="language_btn">Kurdish</a><h2>
+    </th>
+        <th>
+	<h3>L</h3>
+<h2><a href="Latin.html" class="language_btn">Latin</a><h2>
+<h2><a href="Latvian.html" class="language_btn">Latvian</a><h2>
+<h2><a href="Ligurian.html" class="language_btn">Ligurian</a><h2>
+<h2><a href="Limburg.html" class="language_btn">Limburg/Limburgish</a><h2>
+<h2><a href="Lithuanian.html" class="language_btn">Lithuanian</a><h2>
+<h2><a href="Lombard.html" class="language_btn">Lombard</a><h2>
+<h2><a href="Low German.html" class="language_btn">Low German </a><h2>
+<h2><a href="Luri.html" class="language_btn">Luri</a><h2>
+<h2><a href="Luxemburgish.html" class="language_btn">Luxemburgish</a><h2>
+    </th>
+        <th>
+	<h3>M</h3>
+<h2><a href="Macedonian.html" class="language_btn">Macedonian</a><h2>
+<h2><a href="Mahasui.html" class="language_btn">Mahasui</a><h2>
+<h2><a href="Main-frankish.html" class="language_btn">Main-fränkish / Eastern Franconian</a><h2>
+<h2><a href="Maithili.html" class="language_btn">Maithili</a><h2>
+<h2><a href="Maldivian.html" class="language_btn">Maldivian</a><h2>
+<h2><a href="Mandeali.html" class="language_btn">Mandeali</a><h2>
+<h2><a href="Marathi.html" class="language_btn">Marathi</a><h2>
+<h2><a href="Mari.html" class="language_btn">Mari</a><h2>
+<h2><a href="Mirapuri.html" class="language_btn">Mirapuri</a><h2>
+<h2><a href="Moksha.html" class="language_btn">Moksha</a><h2>
+    </th>
+    </tr>
+    
+    <tr>
+    <th>
+    <h3>N</h3>
+<h2><a href="Nap Cal.html" class="language_btn">Nap Cal</a><h2>
+<h2><a href="Nepali.html" class="language_btn">Nepali</a><h2>
+<h2><a href="Norwegian.html" class="language_btn">Norwegian</a><h2>
+    </th>
+        <th>
+	<h3>O</h3>
+<h2><a href="Occitan.html" class="language_btn">Occitan</a><h2>
+<h2><a href="Oriya.html" class="language_btn">Oriya</a><h2>
+<h2><a href="Ossetian.html" class="language_btn">Ossetian</a><h2>
+    </th>
+        <th>
+	<h3>P</h3>
+<h2><a href="Pashto.html" class="language_btn">Pashto</a><h2>
+<h2><a href="Persian.html" class="language_btn">Persian</a><h2>
+<h2><a href="Piemontese.html" class="language_btn">Piemontese</a><h2>
+<h2><a href="Polish.html" class="language_btn">Polish</a><h2>
+<h2><a href="Portuguese.html" class="language_btn">Portuguese</a><h2>
+<h2><a href="Punjabi.html" class="language_btn">Punjabi</a><h2>
+    </th>
+        <th> 
+	<h3>R</h3>
+<h2><a href="Rangpuri.html" class="language_btn">Rangpuri</a><h2>
+<h2><a href="Rohingya.html" class="language_btn">Rohingya</a><h2>
+<h2><a href="Romani.html" class="language_btn">Romani</a><h2>
+<h2><a href="Romanian.html" class="language_btn">Romanian</a><h2>
+<h2><a href="Romansch.html" class="language_btn">Romansch</a><h2>
+<h2><a href="Russian.html" class="language_btn">Russian</a><h2>
+    </th>
+    </tr>
+    
+    <tr>
+    <th>
+    <h3>S</h3>
+<h2><a href="Sadri.html" class="language_btn">Sadri</a><h2>
+<h2><a href="Sami.html" class="language_btn">Sami</a><h2>
+<h2><a href="Samoyedic.html" class="language_btn">Samoyedic</a><h2>
+<h2><a href="Sanskrit.html" class="language_btn">Sanskrit</a><h2>
+<h2><a href="Sardinian.html" class="language_btn">Sardinian</a><h2>
+<h2><a href="Saxon.html" class="language_btn">Saxon</a><h2>
+<h2><a href="Scots.html" class="language_btn">Scots</a><h2>
+<h2><a href="Selaiki.html" class="language_btn">Seraiki</a><h2>
+<h2><a href="Serbian.html" class="language_btn">Serbian</a><h2>
+<h2><a href="Sicilian.html" class="language_btn">Sicilian</a><h2>
+<h2><a href="Sindhi.html" class="language_btn">Sindhi</a><h2>
+<h2><a href="Sinhala.html" class="language_btn">Sinhala</a><h2>
+<h2><a href="Slovak.html" class="language_btn">Slovak</a><h2>
+<h2><a href="Slovene.html" class="language_btn">Slovene</a><h2>
+<h2><a href="Spanish.html" class="language_btn">Spanish</a><h2>
+<h2><a href="Swabian.html" class="language_btn">Swabian</a><h2>
+<h2><a href="Swedish.html" class="language_btn">Swedish</a><h2>
+<h2><a href="Swiss.html" class="language_btn">Swiss German</a><h2>
+<h2><a href="Sylheti.html" class="language_btn">Sylheti</a><h2>
+
+    </th>
+        <th>
+	<h3>T</h3>
+<h2><a href="Tajiki.html" class="language_btn">Tajiki</a><h2>
+<h2><a href="Talysh.html" class="language_btn">Talysh</a><h2>
+    </th>
+        <th>
+	<h3>U</h3>
+<h2><a href="Udmurt.html" class="language_btn">Udmurt</a><h2>
+<h2><a href="Ukrainian.html" class="language_btn">Ukrainian</a><h2>
+<h2><a href="Urdu.html" class="language_btn">Urdu</a><h2>
+    </th>
+        <th> 
+	<h3>V</h3>
+<h2><a href="Venetian.html" class="language_btn">Venetian</a><h2>
+    </th>
+    </tr>
+    
+    <tr>
+    <th>
+    <h3>W</h3>
+<h2><a href="Wagadi.html" class="language_btn">Wagadi</a><h2>
+<h2><a href="Walloon.html" class="language_btn">Walloon</a><h2>
+<h2><a href="Welsh.html" class="language_btn">Welsh</a><h2>
+    </th>
+        <th>
+	<h3>Y</h3>
+<h2><a href="Yiddish.html" class="language_btn">Yiddish</a><h2>
+    </th>
+        <th>
+	
+    </th>
+        <th> 
+	
+    </th>
+    </tr>
+  </table>
+  <p>l <p>
+  </div>
+  <div class = "something">
+  <h1>If you have any questions, write us:</h1>
+  <h1>l.languagetree@gmail.com</h1>
+  </div>
+</body>
+</html>

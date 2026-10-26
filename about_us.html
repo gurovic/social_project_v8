@@ -1,0 +1,183 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta charset="utf-8">
+<title>Древо языков</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
+<style type="text/css">
+        * {
+            font-family: "Open Sans";
+	        font-weight: normal;
+        }
+        body{
+            background-color: #002c49;
+        }
+	    .cont{
+            margin-top: 0;
+	        background: #ebe3d8;
+	        border: 1px solid #ebe3d8;
+            text-align: center;
+	    }
+	    h3 { /* стили текста*/
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+	        font-size: 99px;
+	        color: #002c49;
+	        margin-bottom: 3%;
+            margin-top: 3%;
+            text-align: center;
+	    }
+        h2 {
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+	        font-size: 25px;
+	        color: #002c49;
+	        margin-top:1%;
+	        margin-bottom: 5;
+            }
+        h1 {
+	  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+            font-size: 30px;
+            text-align: center;
+	        margin-top: 15px; 
+            color: #fff;
+        }
+h4 {
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+            font-size: 32px;
+          color: #002c49;
+            text-align: left;
+	    margin-bottom: 0;
+        }
+	    p{ 
+	      font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+            font-size: 20px; 
+            line-height: 26px; 
+            color: #ebe3d8; 
+            font-size: 20px; 
+            letter-spacing: 0.05em; 
+            color: #ebe3d8; 
+            opacity: 0.6; 
+        } 
+        .footer {
+            height: 100px;
+            width: 100%;
+            background: darkgrey;
+            position: absolute;
+            bottom: 0;
+        }
+        /*.ltr{
+        }*/
+        .header { /*применяется к заголовку сайта, устанавливает отступы и цвет заднего фона*/
+        padding: 10px;
+        background-color: #002c49;
+        }
+        .menu{ /*применяется к меню сайта*/
+        display: flex; 
+        justify-content: space-between;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        }
+        .page{ /*настройки кнопок меню: цвет, размер, padding (внутренние отступы)*/
+        border-radius: 10px;
+        box-sizing: border-box;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 32px;
+        padding-right: 32px;
+        display: flex; 
+        flex-direction: column;
+        width: 33%;
+        cursor:pointer /*изменение курсора на руку*/
+        }
+        ::selection { /*цвет выделения текста*/
+        background-color: #8faaaaff
+        }
+        .btn {
+	    display: inline-block; /* Строчно-блочный элемент */
+	    background: #002c49; 
+	    color: #fff; /* Белый цвет текста */
+	    padding: 10px 15px; /* Поля вокруг текста */
+	    text-decoration: none; /* Убираем подчёркивание */
+	    }
+        .table_lang {
+	        border-collapse: collapse;
+	        width: 95%;
+	        margin-left: 2%;
+	        margin-bottom: 3%;
+	    }
+	    .table_lang td{
+	        border:3px solid #ebe3d8;
+	        text-align: center;
+	    }
+	    .table_lang th{
+	        border:3px solid #ebe3d8;
+	        text-align: center;
+	        width: 30%;
+	    }
+	    	.something{
+	background-color: #002c49;
+	height: 20%;
+	width: 100%;
+	}
+</style>
+
+</head>
+<body>
+    <div class = "header">
+        <div class="menu">  <!--создание меню с тремя "вкладками"-->
+            <div class="page" onclick="location.href='main_page.html';">
+                <h1>Main</h1>
+            </div>
+            <div class="page" onclick="location.href='about_project.html';">
+                <h1>About project</h1>
+            </div>
+            <div class="page" onclick="location.href='about_us.html';">
+                <h1>About us</h1>
+            </div>
+        </div>
+    </div>
+    <div class = "cont">
+<div class = "head_line">
+    <h3>About us</h3>
+</div>
+<table class = "table_lang">
+    <tr>
+        <th><img src="Liza.jpg" width = "100%"></th>
+        <th><img src="Eva.jpeg" width = "100%"></th>
+	    <th><img src="Uliana.jpg" width = "100%"></th>
+    </tr>
+    <tr>
+        <td><h4>Dyatlova Elizaveta</h4></td>
+        <td><h4>Chernaya Eva</h4></td>
+	    <td><h4>Shurlakova Uliana</h4></td>
+    </tr>
+    <tr>
+        <td><h4>CCO (Chief Content Officer)</h4></td>
+        <td><h4>CDO (Chief Design Officer)</h4></td>
+	    <td><h4>CIO (Chief Information Officer)</h4></td>
+    </tr>
+</table>
+
+</div>
+  <div class = "something">
+  <h1>If you have some questions, write us:</h1>
+  <h1>l.languagetree@gmail.com</h1>
+  </div>
+</body>
+</html>
